@@ -1,6 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace DatabaseConnection;
 
-public class DbContext
+public class DatabaseContext : DbContext
 {
-    
 }

@@ -1,6 +1,8 @@
+using AutoMapper;
+
 namespace DatabaseConnection;
 
-public class AutoMapper
+public class AutoMapper : Profile
 {
     
 }
