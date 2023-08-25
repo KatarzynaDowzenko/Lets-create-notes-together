@@ -5,33 +5,144 @@
     <projectFile profileName="https">DatabaseConnection/DatabaseConnection.csproj</projectFile>
     <projectFile profileName="http">MakeNotes/MakeNotes.csproj</projectFile>
     <projectFile profileName="https">MakeNotes/MakeNotes.csproj</projectFile>
+    <projectFile profileName="http">PresentationLayer/PresentationLayer.csproj</projectFile>
+    <projectFile profileName="https">PresentationLayer/PresentationLayer.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c2c95e7-b027-4549-986e-b40a84e8a013" name="Changes" comment="Rename solution, add init models, propertis and first look structure of application">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LetsCreateNotesTogheter.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Class1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/AutoMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/AutoMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/DbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/DbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/CalenderEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/CalenderEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/CheckListEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/CheckListEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/DashboardEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/DashboardEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/DayPlannerEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/DayPlannerEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/NoteEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/NoteEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/StickEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/StickEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnection/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MakeNotes/Contollers/NoteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MakeNotes/Contollers/NoteController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MakeNotes/MakeNotes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MakeNotes/MakeNotes.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/Dashboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MakeNotes/Models/Dashboard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MakeNotes/Services/NoteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MakeNotes/Services/NoteService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/someApp.sln" beforeDir="false" />
+    <list default="true" id="3c2c95e7-b027-4549-986e-b40a84e8a013" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogether/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogether/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogether/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogether/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogether/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/App.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Data/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Data/WeatherForecastService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Pages/Counter.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Pages/FetchData.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Pages/_Host.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/PresentationLayer.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Shared/NavMenu.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/Shared/SurveyPrompt.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/_Imports.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationLayer/wwwroot/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LetsCreateNotesTogheter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.someApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.someApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/AutoMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/AutoMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/DbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/DbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/CalenderEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Entity/CalenderEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/CheckListEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Entity/CheckListEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/DashboardEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Entity/DashboardEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/DayPlannerEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Entity/DayPlannerEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/NoteEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Models/NoteEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Models/Entity/StickEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Models/StickEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LetsCreateNotesTogheter.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LetsCreateNotesTogether.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Contollers/NoteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Contollers/NoteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/MakeNotes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/BusinessLogicLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/Calender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Models/Calender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/CheckList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Models/CheckList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/Dashboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Models/Dashboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/DayPlanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Models/DayPlanner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/NoteEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Entity/NoteEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Models/StickEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Entity/StickEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/Services/NoteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/Services/NoteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeNotes/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogicLayer/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +152,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="zebra@MacBook-Pro-Zebra" />
+        <option value="katarzyna.dowzenko@gmail.com" />
         <option value="Katarzyna" />
       </list>
     </option>
@@ -60,7 +173,15 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BusinessLogicLayer/Contollers/NoteController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BusinessLogicLayer/Models/Calender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BusinessLogicLayer/Models/CheckList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BusinessLogicLayer/Models/Dashboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BusinessLogicLayer/Services/NoteService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataAccessLayer/AutoMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataAccessLayer/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataAccessLayer/Models/Entity/CalenderEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/zebra/RiderProjects/someApp/DatabaseConnection/Models/Entity/CalenderEntity.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -96,7 +217,7 @@
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MakeNotes: http">
     <configuration name="DatabaseConnection: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -111,7 +232,7 @@
       </method>
     </configuration>
     <configuration name="DatabaseConnection: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -126,7 +247,7 @@
       </method>
     </configuration>
     <configuration name="MakeNotes: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MakeNotes/MakeNotes.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BusinessLogicLayer/BusinessLogicLayer.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -141,7 +262,37 @@
       </method>
     </configuration>
     <configuration name="MakeNotes: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MakeNotes/MakeNotes.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BusinessLogicLayer/BusinessLogicLayer.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="PresentationLayer: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PresentationLayer/PresentationLayer.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="PresentationLayer: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PresentationLayer/PresentationLayer.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -167,8 +318,17 @@
       <workItem from="1692981129088" duration="566000" />
       <workItem from="1692982096105" duration="463000" />
       <workItem from="1692982590033" duration="3227000" />
-      <workItem from="1692986539958" duration="653000" />
+      <workItem from="1692986539958" duration="1379000" />
     </task>
+    <task id="LOCAL-00001" summary="create initial application structure">
+      <option name="closed" value="true" />
+      <created>1692987349971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692987349971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +340,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="adding initial models, properties and structure od application" />
     <MESSAGE value="Rename solution, add init models, propertis and first look structure of application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename solution, add init models, propertis and first look structure of application" />
+    <MESSAGE value="add initial application structure, init models with properties" />
+    <MESSAGE value="create init application structure, init models with properties" />
+    <MESSAGE value="create initial application structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="create initial application structure" />
   </component>
 </project>
