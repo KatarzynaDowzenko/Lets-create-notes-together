@@ -3,24 +3,24 @@ using BusinessLogicLayer.Models;
 
 namespace BusinessLogicLayer.Services;
 
-public abstract class DashboardService : IBaseService<Dashboard>
+public abstract class CheckListService : IBaseService<CheckList>
 {
-    public async Task<List<Dashboard>> GetAll()
+    public async Task<List<CheckList>> GetAll()
     {
         throw new NotImplementedException();
     }
 
-    public async Task<Dashboard> GetById(Guid id)
+    public async Task<CheckList> GetById(Guid id)
     {
         throw new NotImplementedException();
     }
 
-    public async Task<string> Add(Dashboard model)
+    public async Task<string> Add(CheckList model)
     {
         throw new NotImplementedException();
     }
 
-    public async Task<Dashboard> Delete(Guid id)
+    public async Task<CheckList> Delete(Guid id)
     {
         throw new NotImplementedException();
     }

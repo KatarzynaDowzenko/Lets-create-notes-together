@@ -1,15 +1,12 @@
 using BusinessLogicLayer.Exceptions;
-using BusinessLogicLayer.Models;
-using BusinessLogicLayer.Services;
+using BusinessLogicLayer.Interfaceses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BusinessLogicLayer.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public abstract class BaseController<TModel, TService> : ControllerBase
-    where TModel : BaseModel
-    where TService : IBaseService<TModel>
+public abstract class BaseController<TModel, TService> : ControllerBase where TService : IBaseService<TModel>
 {
     private readonly ILogger<BaseController<TModel, TService>> _logger;
     private readonly TService _service;
@@ -66,8 +63,8 @@ public abstract class BaseController<TModel, TService> : ControllerBase
     {
         try
         {
-            await _service.Add(model);
-            return Created($"/api/{nameof(BaseController<TModel, TService>)}/{model.Id}", null);
+            var id = await _service.Add(model);
+            return Created($"/api/{nameof(BaseController<TModel, TService>)}/{id}", null);
 
         }
         catch (Exception e)

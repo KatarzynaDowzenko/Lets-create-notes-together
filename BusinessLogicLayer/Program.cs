@@ -1,4 +1,9 @@
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Dodaj obsługę Swaggera
+builder.Services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API", Version = "v1" }); });
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -19,6 +24,13 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Let's create notes together");
+    c.RoutePrefix = string.Empty;
+});
 
 app.MapControllerRoute(
     name: "default",

@@ -50,7 +50,7 @@
   };
   /**
    * --------------------------------------------------------------------------
-   * Public Util Api
+   * public Util Api
    * --------------------------------------------------------------------------
    */
 
@@ -806,7 +806,7 @@
     // Getters
     static get NAME() {
       return NAME$d;
-    } // Public
+    } // public
 
 
     close() {
@@ -895,7 +895,7 @@
     // Getters
     static get NAME() {
       return NAME$c;
-    } // Public
+    } // public
 
 
     toggle() {
@@ -1190,7 +1190,7 @@
 
     static get NAME() {
       return NAME$b;
-    } // Public
+    } // public
 
 
     next() {
@@ -1708,7 +1708,7 @@
 
     static get NAME() {
       return NAME$a;
-    } // Public
+    } // public
 
 
     toggle() {
@@ -2032,7 +2032,7 @@
 
     static get NAME() {
       return NAME$9;
-    } // Public
+    } // public
 
 
     toggle() {
@@ -2808,7 +2808,7 @@
 
     static get NAME() {
       return NAME$6;
-    } // Public
+    } // public
 
 
     toggle(relatedTarget) {
@@ -3220,7 +3220,7 @@
 
     static get Default() {
       return Default$4;
-    } // Public
+    } // public
 
 
     toggle(relatedTarget) {
@@ -3654,7 +3654,7 @@
 
     static get DefaultType() {
       return DefaultType$3;
-    } // Public
+    } // public
 
 
     enable() {
@@ -4405,7 +4405,7 @@
 
     static get NAME() {
       return NAME$2;
-    } // Public
+    } // public
 
 
     refresh() {
@@ -4613,7 +4613,7 @@
     // Getters
     static get NAME() {
       return NAME$1;
-    } // Public
+    } // public
 
 
     show() {
@@ -4835,7 +4835,7 @@
 
     static get NAME() {
       return NAME;
-    } // Public
+    } // public
 
 
     show() {

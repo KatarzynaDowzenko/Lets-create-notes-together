@@ -1,4 +1,4 @@
-namespace BusinessLogicLayer.Services;
+namespace BusinessLogicLayer.Interfaceses;
 
 public interface IBaseService<TBaseModel>
 {
