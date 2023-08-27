@@ -1,16 +1,10 @@
-using System;
-using System.Collections.Generic;
-
-namespace DatabaseConnection.Models.Entity;
+namespace BusinessLogicLayer.Models;
 
 public class Dashboard
 {
-    public Guid Id { get; set; }
-    public string Name { get; set; }
-    public List<NoteEntity> SingleNotes { get; set; }
+    public List<Note> SingleNotes { get; set; }
     public List<DayPlanner> DayPlanners { get; set; }
     public Calender Calender { get; set; }
-    public List<StickEntity> Sticks { get; set; }
+    public List<Note> Notes { get; set; }
     public List<CheckList> CheckLists { get; set; }
-    public DateTime CreationDate { get; set; }
 }

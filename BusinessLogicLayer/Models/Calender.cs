@@ -1,8 +1,5 @@
-using System;
+namespace BusinessLogicLayer.Models;
 
-namespace DatabaseConnection.Models.Entity;
-
-public class Calender
+public class Calender : BaseModel
 {
-    public Guid Id { get; set; }
 }
