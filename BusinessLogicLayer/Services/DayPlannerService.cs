@@ -1,10 +1,23 @@
+using AutoMapper;
 using BusinessLogicLayer.Interfaceses;
 using BusinessLogicLayer.Models;
+using DataAccessLayer;
 
 namespace BusinessLogicLayer.Services;
 
 public abstract class DayPlannerService : IBaseService<DayPlanner>
 {
+    private readonly DatabaseContext _context;
+    private readonly IMapper _mapper;
+    private readonly ILogger<DayPlannerService> _logger;
+
+    protected DayPlannerService(DatabaseContext context, IMapper mapper, ILogger<DayPlannerService> logger)
+    {
+        _context = context;
+        _mapper = mapper;
+        _logger = logger;
+    }
+
     public async Task<List<DayPlanner>> GetAll()
     {
         throw new NotImplementedException();

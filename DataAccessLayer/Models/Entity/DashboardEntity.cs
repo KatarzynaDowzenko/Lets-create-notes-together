@@ -10,7 +10,7 @@ public class DashboardEntity
     public List<NoteEntity> SingleNotes { get; set; }
     public List<DayPlannerEntity> DayPlanners { get; set; }
     public CalenderEntity Calender { get; set; }
-    public List<StickEntity> Sticks { get; set; }
+    public List<WeekPlannerEntity> WeekPlanners { get; set; }
     public List<CheckListEntity> CheckLists { get; set; }
     public DateTime CreationDate { get; set; }
 }

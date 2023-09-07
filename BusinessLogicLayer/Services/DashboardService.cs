@@ -1,10 +1,23 @@
+using AutoMapper;
 using BusinessLogicLayer.Interfaceses;
 using BusinessLogicLayer.Models;
+using DataAccessLayer;
 
 namespace BusinessLogicLayer.Services;
 
 public abstract class DashboardService : IBaseService<Dashboard>
 {
+    private readonly DatabaseContext _context;
+    private readonly IMapper _mapper;
+    private readonly ILogger<DashboardService> _logger;
+
+    protected DashboardService(DatabaseContext context, IMapper mapper, ILogger<DashboardService> logger)
+    {
+        _context = context;
+        _mapper = mapper;
+        _logger = logger;
+    }
+
     public async Task<List<Dashboard>> GetAll()
     {
         throw new NotImplementedException();
