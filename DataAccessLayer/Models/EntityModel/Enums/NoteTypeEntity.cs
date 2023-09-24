@@ -1,4 +1,4 @@
-namespace DataAccessLayer.Models.Enums;
+namespace DataAccessLayer.Models.EntityModel.Enums;
 
 public enum NoteTypeEntity
 {

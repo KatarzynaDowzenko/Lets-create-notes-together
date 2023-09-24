@@ -1,4 +1,4 @@
-using DataAccessLayer.Models.Entity;
+using DataAccessLayer.Models.EntityModel;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer;

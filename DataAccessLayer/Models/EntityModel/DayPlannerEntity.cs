@@ -1,15 +1,14 @@
-using DataAccessLayer.Models.Enums;
+namespace DataAccessLayer.Models.EntityModel;
 
-namespace DataAccessLayer.Models.Entity;
-
-public class NoteEntity
+public class DayPlannerEntity
 {
     public Guid Id { get; set; }
-    public NoteTypeEntity NoteType { get; set; }
     public string Name { get; set; }
     public string NoteTitle { get; set; }
     public string Note { get; set; }
     public DateTime CreationNoteDate { get; set; }
     public Guid DashboardId { get; set; }
     public DashboardEntity Dashboard { get; set; }
+    public Guid WeekPlannerId { get; set; }
+    public WeekPlannerEntity WeekPlanner { get; set; }
 }

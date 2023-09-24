@@ -1,4 +1,4 @@
-namespace DataAccessLayer.Models.Entity;
+namespace DataAccessLayer.Models.EntityModel;
 
 public class WeekPlannerEntity
 {

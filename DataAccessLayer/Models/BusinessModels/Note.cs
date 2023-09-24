@@ -1,6 +1,6 @@
-using BusinessLogicLayer.Models.Enums;
+using DataAccessLayer.Models.BusinessModels.Enums;
 
-namespace BusinessLogicLayer.Models;
+namespace DataAccessLayer.Models.BusinessModels;
 
 public class Note : BaseNoteModel
 {

@@ -1,8 +1,8 @@
 using AutoMapper;
-using BusinessLogicLayer.Models;
-using BusinessLogicLayer.Models.Enums;
-using DataAccessLayer.Models.Entity;
-using DataAccessLayer.Models.Enums;
+using DataAccessLayer.Models.BusinessModels;
+using DataAccessLayer.Models.BusinessModels.Enums;
+using DataAccessLayer.Models.EntityModel;
+using DataAccessLayer.Models.EntityModel.Enums;
 
 namespace DataAccessLayer;
 

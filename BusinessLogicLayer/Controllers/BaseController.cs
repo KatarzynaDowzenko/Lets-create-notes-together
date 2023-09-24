@@ -1,5 +1,5 @@
 using BusinessLogicLayer.Exceptions;
-using BusinessLogicLayer.Interfaceses;
+using BusinessLogicLayer.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BusinessLogicLayer.Controllers;

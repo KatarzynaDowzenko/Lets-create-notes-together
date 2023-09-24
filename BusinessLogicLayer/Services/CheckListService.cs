@@ -1,7 +1,7 @@
 using AutoMapper;
-using BusinessLogicLayer.Interfaceses;
-using BusinessLogicLayer.Models;
+using BusinessLogicLayer.Interfaces;
 using DataAccessLayer;
+using DataAccessLayer.Models.BusinessModels;
 
 namespace BusinessLogicLayer.Services;
 

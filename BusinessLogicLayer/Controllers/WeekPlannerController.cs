@@ -1,5 +1,5 @@
-using BusinessLogicLayer.Models;
 using BusinessLogicLayer.Services;
+using DataAccessLayer.Models.BusinessModels;
 
 namespace BusinessLogicLayer.Controllers;
 

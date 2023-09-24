@@ -1,4 +1,4 @@
-namespace BusinessLogicLayer.Models;
+namespace DataAccessLayer.Models.BusinessModels;
 
 public abstract class BaseModel
 {
