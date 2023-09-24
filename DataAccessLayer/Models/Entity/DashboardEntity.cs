@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-
 namespace DataAccessLayer.Models.Entity;
 
 public class DashboardEntity
 {
     public Guid Id { get; set; }
     public string Name { get; set; }
-    public List<NoteEntity> SingleNotes { get; set; }
+    public List<NoteEntity> Notes { get; set; }
     public List<DayPlannerEntity> DayPlanners { get; set; }
     public CalenderEntity Calender { get; set; }
     public List<WeekPlannerEntity> WeekPlanners { get; set; }

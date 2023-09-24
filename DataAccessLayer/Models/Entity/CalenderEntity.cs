@@ -1,5 +1,3 @@
-using System;
-
 namespace DataAccessLayer.Models.Entity;
 
 public class CalenderEntity

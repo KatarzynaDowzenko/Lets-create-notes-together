@@ -65,7 +65,6 @@ public abstract class BaseController<TModel, TService> : ControllerBase where TS
         {
             var id = await _service.Add(model);
             return Created($"/api/{nameof(BaseController<TModel, TService>)}/{id}", null);
-
         }
         catch (Exception e)
         {
