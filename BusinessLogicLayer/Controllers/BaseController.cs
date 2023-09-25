@@ -80,7 +80,7 @@ public abstract class BaseController<TModel, TService> : ControllerBase where TS
     {
         try
         {
-            await _service.Delete(id);
+            _service.Delete(id);
             return NoContent();
         }
         catch (NotFoundException e)
